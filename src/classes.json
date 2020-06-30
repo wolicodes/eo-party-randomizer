@@ -1,0 +1,147 @@
+{
+  "eo1": {
+    "classes": [
+      "Alchemist",
+      "Dark Hunter",
+      "Landsknecht",
+      "Survivalist",
+      "Troubadour",
+      "Medic",
+      "Protector"
+    ],
+    "unlockable": [
+      "Ronin",
+      "Hexer"
+    ]
+  },
+  "eo2": {
+    "classes": [
+      "Alchemist",
+      "Dark Hunter",
+      "Landsknecht",
+      "Survivalist",
+      "Troubadour",
+      "Medic",
+      "Ronin",
+      "Hexer",
+      "Protector",
+      "Gunner",
+      "War Magus"
+    ],
+    "unlockable": [
+      "Beast"
+    ]
+  },
+  "eo3": {
+    "classes": [
+      "Sovereign",
+      "Gladiator",
+      "Hoplite",
+      "Buccaneer",
+      "Ninja",
+      "Monk",
+      "Zodiac",
+      "Wildling",
+      "Arbalist",
+      "Farmer"
+    ],
+    "unlockable": [
+      "Shogun",
+      "Yggdroid"
+    ]
+  },
+  "eo4": {
+    "classes": [
+      "Landsknecht",
+      "Nightseeker",
+      "Fortress",
+      "Sniper",
+      "Medic",
+      "Runemaster",
+      "Dancer"
+    ],
+    "unlockable": [
+      "Arcanist",
+      "Bushi",
+      "Imperial"
+    ]
+  },
+  "eou": {
+    "classes": [
+      "Alchemist",
+      "Dark Hunter",
+      "Landsknecht",
+      "Survivalist",
+      "Troubadour",
+      "Medic",
+      "Ronin",
+      "Hexer",
+      "Protector"
+    ],
+    "unlockable": [
+      "Highlander",
+      "Gunner"
+    ]
+  },
+  "eou2": {
+    "classes": [
+      "Landsknecht",
+      "Survivalist",
+      "Protector",
+      "Dark Hunter",
+      "Medic",
+      "Alchemist",
+      "Troubadour",
+      "Ronin",
+      "Hexer",
+      "Gunner",
+      "War Magus",
+      "Sovereign",
+      "Beast"
+    ],
+    "unlockable": [
+      "Highlander",
+      "Fafnir Knight"
+    ]
+  },
+  "eo5": {
+    "classes": [
+      "Fencer",
+      "Dragoon",
+      "Pugilist",
+      "Harbinger",
+      "Warlock",
+      "Necromancer",
+      "Rover",
+      "Masurao",
+      "Shaman",
+      "Botanist"
+    ]
+  },
+  "eon": {
+    "classes": [
+      "Hero",
+      "Protector",
+      "Medic",
+      "Survivalist",
+      "Ronin",
+      "War Magus",
+      "Highlander",
+      "Gunner",
+      "Sovereign",
+      "Ninja",
+      "Zodiac",
+      "Farmer",
+      "Shogun",
+      "Landsknecht",
+      "Nightseeker",
+      "Arcanist",
+      "Imperial",
+      "Pugilist",
+      "Harbinger"
+    ],
+    "unlockable": [
+      "Vampire"
+    ]
+  }
+}
