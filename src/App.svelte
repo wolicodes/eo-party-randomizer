@@ -1,5 +1,4 @@
 <script>
-  import GameSelect from "./GameSelect.svelte";
   import classesData from "./classes.json";
 
   let party = [];
@@ -14,16 +13,6 @@
     if (unlockable) {
       classes = classes.concat(classesData[game].unlockable);
     }
-    console.log('classes', classes)
-  };
-
-  const handleGameChanged = event => {
-    game = event.detail.game;
-    refreshClasses();
-  };
-
-  const handleUnlockableChanged = () => {
-    refreshClasses();
   };
 
   const handleSubmit = () => {
@@ -50,7 +39,19 @@
 </style>
 
 <main>
-  <GameSelect selected={game} on:selectgame={handleGameChanged} />
+    <p>
+      Choose your game
+      <select bind:value={game} on:blur={refreshClasses}>
+        <option value="eo1">Etrian Odyssey</option>
+        <option value="eo2">Etrian Odyssey II</option>
+        <option value="eo3">Etrian Odyssey III</option>
+        <option value="eo4">Etrian Odyssey IV</option>
+        <option value="eou">Etrian Odyssey Untold</option>
+        <option value="eou2">Etrian Odyssey Untold 2</option>
+        <option value="eo5">Etrian Odyssey V</option>
+        <option value="eon">Etrian Odyssey Nexus</option>
+      </select>
+    </p>
 
   <form on:submit|preventDefault={handleSubmit}>
     <p>
@@ -72,7 +73,7 @@
         id="unlockable-classes"
         type="checkbox"
         bind:checked={unlockable}
-        on:change={handleUnlockableChanged} />
+        on:change={refreshClasses} />
     </p>
     <button type="submit">Randomize</button>
   </form>
